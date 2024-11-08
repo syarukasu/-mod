@@ -1,5 +1,6 @@
 package com.Syaru.CyborgMod.main;
 
+import com.Syaru.CyborgMod.block.entity.CyborgModEntityTypes;
 import com.Syaru.CyborgMod.regi.CyborgModItems;
 import com.Syaru.CyborgMod.regi.tab.CyborgModTabs;
 import com.Syaru.CyborgMod.regi.CyborgModBlocks;
@@ -18,6 +19,7 @@ public class CyborgMod {
 
         // アイテム、ブロック、タブの登録
         CyborgModBlocks.register(bus);
+        CyborgModEntityTypes.BLOCK_ENTITY_TYPES.register(bus);
         CyborgModItems.ITEMS.register(bus);
         CyborgModTabs.TABS.register(bus);
     }
