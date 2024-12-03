@@ -1,0 +1,10 @@
+#共通セットアップ時に土ブロックをログに記録するかどうか
+logDirtBlock = true
+#魔法の数字
+#Range: > 0
+magicNumber = 42
+#魔法の数字の紹介メッセージとして何を表示したいか
+magicNumberIntroduction = "魔法の数字は... "
+#共通セットアップ時にログに記録するアイテムのリスト。
+items = ["minecraft:iron_ingot"]
+

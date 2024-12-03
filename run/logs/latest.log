@@ -1,0 +1,351 @@
+[0911月2024 15:04:34.286] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientuserdev, --version, MOD_DEV, --assetIndex, 5, --assetsDir, C:\Users\kiru\.gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 47.1.47, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
+[0911月2024 15:04:34.296] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.13 by Eclipse Adoptium; OS Windows 10 arch amd64 version 10.0
+[0911月2024 15:04:34.453] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
+[0911月2024 15:04:34.544] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.6
+[0911月2024 15:04:34.793] [main/INFO] [EARLYDISPLAY/]: Requested GL version 4.6 got version 4.6
+[0911月2024 15:04:34.912] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/kiru/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23128!/ Service=ModLauncher Env=CLIENT
+[0911月2024 15:04:35.034] [pool-2-thread-1/INFO] [EARLYDISPLAY/]: GL info: NVIDIA GeForce RTX 3060 Ti/PCIe/SSE2 GL version 4.6.0 NVIDIA 566.03, NVIDIA Corporation
+[0911月2024 15:04:35.503] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\kiru\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.1.47\57b4103e32ac0f74b33e704bfe2b9df1c6200edf\javafmllanguage-1.20.1-47.1.47.jar is missing mods.toml file
+[0911月2024 15:04:35.507] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\kiru\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.1.47\5f3513af8ed4fcab2417c15251cf201d688533a6\lowcodelanguage-1.20.1-47.1.47.jar is missing mods.toml file
+[0911月2024 15:04:35.513] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\kiru\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.1.47\ebc707d73d74451493fb5b5252dc6cf6b1bf1795\mclanguage-1.20.1-47.1.47.jar is missing mods.toml file
+[0911月2024 15:04:35.521] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\kiru\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.1.47\62b2f9c443dd74c21edf523fd3abfbac16bddacb\fmlcore-1.20.1-47.1.47.jar is missing mods.toml file
+[0911月2024 15:04:35.637] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[0911月2024 15:04:37.408] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientuserdev' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\kiru\.gradle\caches\forge_gradle\assets, --assetIndex, 5]
+[0911月2024 15:04:38.513] [main/WARN] [oshi.util.platform.windows.PerfDataUtil/]: Failed to add PDH Counter: \Paging File(_Total)\% Usage, Error code: 0xC0000BB8
+[0911月2024 15:04:38.513] [main/WARN] [oshi.util.platform.windows.PerfCounterQueryHandler/]: Failed to add counter for PDH counter: \Paging File(_Total)\% Usage
+[0911月2024 15:04:38.513] [main/WARN] [oshi.util.platform.windows.PerfCounterQuery/]: Disabling further attempts to query Paging File.
+[0911月2024 15:04:42.604] [main/WARN] [oshi.util.platform.windows.WmiQueryHandler/]: COM exception: Invalid Query: SELECT PERCENTUSAGE FROM Win32_PerfRawData_PerfOS_PagingFile
+[0911月2024 15:04:45.414] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 188 Datafixer optimizations took 154 milliseconds
+[0911月2024 15:04:47.093] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/kiru/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.1.47_mapped_official_1.20.1/forge-1.20.1-47.1.47_mapped_official_1.20.1.jar%23191!/assets/.mcassetsroot' uses unexpected schema
+[0911月2024 15:04:47.093] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/kiru/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.1.47_mapped_official_1.20.1/forge-1.20.1-47.1.47_mapped_official_1.20.1.jar%23191!/data/.mcassetsroot' uses unexpected schema
+[0911月2024 15:04:47.113] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[0911月2024 15:04:47.120] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[0911月2024 15:04:47.224] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.1 build 7
+[0911月2024 15:04:47.549] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.1.47, for MC 1.20.1 with MCP 20230612.114412
+[0911月2024 15:04:47.551] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.1.47 Initialized
+[0911月2024 15:04:48.720] [Render thread/INFO] [net.minecraftforge.gametest.ForgeGameTestHooks/]: Enabled Gametest Namespaces: [examplemod]
+[0911月2024 15:04:48.836] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources
+[0911月2024 15:04:48.972] [Worker-Main-6/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-15.0.06.hex, loading
+[0911月2024 15:04:48.977] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[0911月2024 15:04:49.482] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.1.47 Target: 47.3.0
+[0911月2024 15:04:49.836] [Worker-Main-1/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'cyborgmod:blockstates/foundation_surgical_table.json' missing model for variant: 'cyborgmod:foundation_surgical_table#'
+[0911月2024 15:04:49.836] [Worker-Main-1/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'cyborgmod:blockstates/cultivation_surgical_table.json' missing model for variant: 'cyborgmod:cultivation_surgical_table#'
+[0911月2024 15:04:49.836] [Worker-Main-1/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'cyborgmod:blockstates/mastery_surgical_table.json' missing model for variant: 'cyborgmod:mastery_surgical_table#'
+[0911月2024 15:04:49.836] [Worker-Main-1/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'cyborgmod:blockstates/zenith_surgical_table.json' missing model for variant: 'cyborgmod:zenith_surgical_table#'
+[0911月2024 15:04:49.836] [Worker-Main-1/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'cyborgmod:blockstates/foundation_medical_equipment.json' missing model for variant: 'cyborgmod:foundation_medical_equipment#'
+[0911月2024 15:04:49.836] [Worker-Main-1/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'cyborgmod:blockstates/cultivation_medical_equipment.json' missing model for variant: 'cyborgmod:cultivation_medical_equipment#'
+[0911月2024 15:04:49.836] [Worker-Main-1/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'cyborgmod:blockstates/mastery_medical_equipment.json' missing model for variant: 'cyborgmod:mastery_medical_equipment#'
+[0911月2024 15:04:49.836] [Worker-Main-1/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'cyborgmod:blockstates/zenith_medical_equipment.json' missing model for variant: 'cyborgmod:zenith_medical_equipment#'
+[0911月2024 15:04:49.837] [Worker-Main-1/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'cyborgmod:blockstates/foundation_casing.json' missing model for variant: 'cyborgmod:foundation_casing#'
+[0911月2024 15:04:49.837] [Worker-Main-1/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'cyborgmod:blockstates/cultivation_casing.json' missing model for variant: 'cyborgmod:cultivation_casing#'
+[0911月2024 15:04:49.837] [Worker-Main-1/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'cyborgmod:blockstates/mastery_casing.json' missing model for variant: 'cyborgmod:mastery_casing#'
+[0911月2024 15:04:49.837] [Worker-Main-1/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'cyborgmod:blockstates/zenith_casing.json' missing model for variant: 'cyborgmod:zenith_casing#'
+[0911月2024 15:04:49.837] [Worker-Main-1/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'cyborgmod:blockstates/light_block.json' missing model for variant: 'cyborgmod:light_block#'
+[0911月2024 15:04:49.838] [Worker-Main-1/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'cyborgmod:blockstates/console_block.json' missing model for variant: 'cyborgmod:console_block#'
+[0911月2024 15:04:49.838] [Worker-Main-1/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'cyborgmod:blockstates/energy_supply_block.json' missing model for variant: 'cyborgmod:energy_supply_block#'
+[0911月2024 15:04:49.838] [Worker-Main-1/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'cyborgmod:blockstates/oxygen_supply_unit.json' missing model for variant: 'cyborgmod:oxygen_supply_unit#'
+[0911月2024 15:04:49.838] [Worker-Main-1/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'cyborgmod:blockstates/sterilization_station.json' missing model for variant: 'cyborgmod:sterilization_station#'
+[0911月2024 15:04:49.838] [Worker-Main-1/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'cyborgmod:blockstates/air_conditioning_system.json' missing model for variant: 'cyborgmod:air_conditioning_system#'
+[0911月2024 15:04:49.838] [Worker-Main-1/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'cyborgmod:blockstates/clean_room_gate.json' missing model for variant: 'cyborgmod:clean_room_gate#'
+[0911月2024 15:04:49.846] [Worker-Main-1/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'cyborgmod:foundation_surgical_table#inventory' referenced from: cyborgmod:foundation_surgical_table#inventory: java.io.FileNotFoundException: cyborgmod:models/item/foundation_surgical_table.json
+[0911月2024 15:04:49.846] [Worker-Main-1/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'cyborgmod:cultivation_surgical_table#inventory' referenced from: cyborgmod:cultivation_surgical_table#inventory: java.io.FileNotFoundException: cyborgmod:models/item/cultivation_surgical_table.json
+[0911月2024 15:04:49.846] [Worker-Main-1/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'cyborgmod:mastery_surgical_table#inventory' referenced from: cyborgmod:mastery_surgical_table#inventory: java.io.FileNotFoundException: cyborgmod:models/item/mastery_surgical_table.json
+[0911月2024 15:04:49.847] [Worker-Main-1/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'cyborgmod:zenith_surgical_table#inventory' referenced from: cyborgmod:zenith_surgical_table#inventory: java.io.FileNotFoundException: cyborgmod:models/item/zenith_surgical_table.json
+[0911月2024 15:04:49.847] [Worker-Main-1/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'cyborgmod:foundation_medical_equipment#inventory' referenced from: cyborgmod:foundation_medical_equipment#inventory: java.io.FileNotFoundException: cyborgmod:models/item/foundation_medical_equipment.json
+[0911月2024 15:04:49.847] [Worker-Main-1/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'cyborgmod:cultivation_medical_equipment#inventory' referenced from: cyborgmod:cultivation_medical_equipment#inventory: java.io.FileNotFoundException: cyborgmod:models/item/cultivation_medical_equipment.json
+[0911月2024 15:04:49.847] [Worker-Main-1/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'cyborgmod:mastery_medical_equipment#inventory' referenced from: cyborgmod:mastery_medical_equipment#inventory: java.io.FileNotFoundException: cyborgmod:models/item/mastery_medical_equipment.json
+[0911月2024 15:04:49.847] [Worker-Main-1/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'cyborgmod:zenith_medical_equipment#inventory' referenced from: cyborgmod:zenith_medical_equipment#inventory: java.io.FileNotFoundException: cyborgmod:models/item/zenith_medical_equipment.json
+[0911月2024 15:04:49.847] [Worker-Main-1/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'cyborgmod:foundation_casing#inventory' referenced from: cyborgmod:foundation_casing#inventory: java.io.FileNotFoundException: cyborgmod:models/item/foundation_casing.json
+[0911月2024 15:04:49.847] [Worker-Main-1/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'cyborgmod:cultivation_casing#inventory' referenced from: cyborgmod:cultivation_casing#inventory: java.io.FileNotFoundException: cyborgmod:models/item/cultivation_casing.json
+[0911月2024 15:04:49.848] [Worker-Main-1/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'cyborgmod:mastery_casing#inventory' referenced from: cyborgmod:mastery_casing#inventory: java.io.FileNotFoundException: cyborgmod:models/item/mastery_casing.json
+[0911月2024 15:04:49.848] [Worker-Main-1/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'cyborgmod:zenith_casing#inventory' referenced from: cyborgmod:zenith_casing#inventory: java.io.FileNotFoundException: cyborgmod:models/item/zenith_casing.json
+[0911月2024 15:04:49.848] [Worker-Main-1/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'cyborgmod:light_block#inventory' referenced from: cyborgmod:light_block#inventory: java.io.FileNotFoundException: cyborgmod:models/item/light_block.json
+[0911月2024 15:04:49.848] [Worker-Main-1/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'cyborgmod:console_block#inventory' referenced from: cyborgmod:console_block#inventory: java.io.FileNotFoundException: cyborgmod:models/item/console_block.json
+[0911月2024 15:04:49.848] [Worker-Main-1/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'cyborgmod:energy_supply_block#inventory' referenced from: cyborgmod:energy_supply_block#inventory: java.io.FileNotFoundException: cyborgmod:models/item/energy_supply_block.json
+[0911月2024 15:04:49.848] [Worker-Main-1/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'cyborgmod:oxygen_supply_unit#inventory' referenced from: cyborgmod:oxygen_supply_unit#inventory: java.io.FileNotFoundException: cyborgmod:models/item/oxygen_supply_unit.json
+[0911月2024 15:04:49.848] [Worker-Main-1/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'cyborgmod:sterilization_station#inventory' referenced from: cyborgmod:sterilization_station#inventory: java.io.FileNotFoundException: cyborgmod:models/item/sterilization_station.json
+[0911月2024 15:04:49.848] [Worker-Main-1/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'cyborgmod:air_conditioning_system#inventory' referenced from: cyborgmod:air_conditioning_system#inventory: java.io.FileNotFoundException: cyborgmod:models/item/air_conditioning_system.json
+[0911月2024 15:04:49.849] [Worker-Main-1/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'cyborgmod:clean_room_gate#inventory' referenced from: cyborgmod:clean_room_gate#inventory: java.io.FileNotFoundException: cyborgmod:models/item/clean_room_gate.json
+[0911月2024 15:04:49.849] [Worker-Main-1/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'cyborgmod:basic_module_base#inventory' referenced from: cyborgmod:basic_module_base#inventory: java.io.FileNotFoundException: cyborgmod:models/item/basic_module_base.json
+[0911月2024 15:04:49.849] [Worker-Main-1/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'cyborgmod:deepened_module_base#inventory' referenced from: cyborgmod:deepened_module_base#inventory: java.io.FileNotFoundException: cyborgmod:models/item/deepened_module_base.json
+[0911月2024 15:04:49.849] [Worker-Main-1/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'cyborgmod:subtle_module_base#inventory' referenced from: cyborgmod:subtle_module_base#inventory: java.io.FileNotFoundException: cyborgmod:models/item/subtle_module_base.json
+[0911月2024 15:04:49.849] [Worker-Main-1/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'cyborgmod:zenith_module_base#inventory' referenced from: cyborgmod:zenith_module_base#inventory: java.io.FileNotFoundException: cyborgmod:models/item/zenith_module_base.json
+[0911月2024 15:04:49.849] [Worker-Main-1/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'cyborgmod:energy_condenser#inventory' referenced from: cyborgmod:energy_condenser#inventory: java.io.FileNotFoundException: cyborgmod:models/item/energy_condenser.json
+[0911月2024 15:04:49.849] [Worker-Main-1/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'cyborgmod:nanofiber#inventory' referenced from: cyborgmod:nanofiber#inventory: java.io.FileNotFoundException: cyborgmod:models/item/nanofiber.json
+[0911月2024 15:04:49.849] [Worker-Main-1/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'cyborgmod:microprocessor#inventory' referenced from: cyborgmod:microprocessor#inventory: java.io.FileNotFoundException: cyborgmod:models/item/microprocessor.json
+[0911月2024 15:04:49.849] [Worker-Main-1/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'cyborgmod:impact_resistant_material#inventory' referenced from: cyborgmod:impact_resistant_material#inventory: java.io.FileNotFoundException: cyborgmod:models/item/impact_resistant_material.json
+[0911月2024 15:04:49.849] [Worker-Main-1/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'cyborgmod:basic_tier_material#inventory' referenced from: cyborgmod:basic_tier_material#inventory: java.io.FileNotFoundException: cyborgmod:models/item/basic_tier_material.json
+[0911月2024 15:04:49.849] [Worker-Main-1/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'cyborgmod:deepened_tier_material#inventory' referenced from: cyborgmod:deepened_tier_material#inventory: java.io.FileNotFoundException: cyborgmod:models/item/deepened_tier_material.json
+[0911月2024 15:04:49.850] [Worker-Main-1/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'cyborgmod:subtle_tier_material#inventory' referenced from: cyborgmod:subtle_tier_material#inventory: java.io.FileNotFoundException: cyborgmod:models/item/subtle_tier_material.json
+[0911月2024 15:04:49.850] [Worker-Main-1/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'cyborgmod:zenith_tier_material#inventory' referenced from: cyborgmod:zenith_tier_material#inventory: java.io.FileNotFoundException: cyborgmod:models/item/zenith_tier_material.json
+[0911月2024 15:04:49.850] [Worker-Main-1/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'cyborgmod:basic_energy_core#inventory' referenced from: cyborgmod:basic_energy_core#inventory: java.io.FileNotFoundException: cyborgmod:models/item/basic_energy_core.json
+[0911月2024 15:04:49.850] [Worker-Main-1/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'cyborgmod:deepened_energy_core#inventory' referenced from: cyborgmod:deepened_energy_core#inventory: java.io.FileNotFoundException: cyborgmod:models/item/deepened_energy_core.json
+[0911月2024 15:04:49.850] [Worker-Main-1/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'cyborgmod:subtle_energy_core#inventory' referenced from: cyborgmod:subtle_energy_core#inventory: java.io.FileNotFoundException: cyborgmod:models/item/subtle_energy_core.json
+[0911月2024 15:04:49.850] [Worker-Main-1/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'cyborgmod:zenith_energy_core#inventory' referenced from: cyborgmod:zenith_energy_core#inventory: java.io.FileNotFoundException: cyborgmod:models/item/zenith_energy_core.json
+[0911月2024 15:04:49.850] [Worker-Main-1/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'cyborgmod:mining_enhancement_module#inventory' referenced from: cyborgmod:mining_enhancement_module#inventory: java.io.FileNotFoundException: cyborgmod:models/item/mining_enhancement_module.json
+[0911月2024 15:04:49.850] [Worker-Main-1/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'cyborgmod:area_mining_module#inventory' referenced from: cyborgmod:area_mining_module#inventory: java.io.FileNotFoundException: cyborgmod:models/item/area_mining_module.json
+[0911月2024 15:04:49.850] [Worker-Main-1/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'cyborgmod:explosive_mining_module#inventory' referenced from: cyborgmod:explosive_mining_module#inventory: java.io.FileNotFoundException: cyborgmod:models/item/explosive_mining_module.json
+[0911月2024 15:04:49.850] [Worker-Main-1/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'cyborgmod:strength_enhancement_module#inventory' referenced from: cyborgmod:strength_enhancement_module#inventory: java.io.FileNotFoundException: cyborgmod:models/item/strength_enhancement_module.json
+[0911月2024 15:04:49.850] [Worker-Main-1/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'cyborgmod:magic_hand_module#inventory' referenced from: cyborgmod:magic_hand_module#inventory: java.io.FileNotFoundException: cyborgmod:models/item/magic_hand_module.json
+[0911月2024 15:04:49.850] [Worker-Main-1/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'cyborgmod:leg_strength_module#inventory' referenced from: cyborgmod:leg_strength_module#inventory: java.io.FileNotFoundException: cyborgmod:models/item/leg_strength_module.json
+[0911月2024 15:04:49.851] [Worker-Main-1/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'cyborgmod:precision_work_module#inventory' referenced from: cyborgmod:precision_work_module#inventory: java.io.FileNotFoundException: cyborgmod:models/item/precision_work_module.json
+[0911月2024 15:04:49.851] [Worker-Main-1/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'cyborgmod:vision_enhancement_module#inventory' referenced from: cyborgmod:vision_enhancement_module#inventory: java.io.FileNotFoundException: cyborgmod:models/item/vision_enhancement_module.json
+[0911月2024 15:04:49.851] [Worker-Main-1/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'cyborgmod:sense_enhancement_module#inventory' referenced from: cyborgmod:sense_enhancement_module#inventory: java.io.FileNotFoundException: cyborgmod:models/item/sense_enhancement_module.json
+[0911月2024 15:04:49.851] [Worker-Main-1/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'cyborgmod:auto_repair_module#inventory' referenced from: cyborgmod:auto_repair_module#inventory: java.io.FileNotFoundException: cyborgmod:models/item/auto_repair_module.json
+[0911月2024 15:04:49.851] [Worker-Main-1/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'cyborgmod:armor_enhancement_module#inventory' referenced from: cyborgmod:armor_enhancement_module#inventory: java.io.FileNotFoundException: cyborgmod:models/item/armor_enhancement_module.json
+[0911月2024 15:04:49.851] [Worker-Main-1/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'cyborgmod:defibrillator_module#inventory' referenced from: cyborgmod:defibrillator_module#inventory: java.io.FileNotFoundException: cyborgmod:models/item/defibrillator_module.json
+[0911月2024 15:04:49.851] [Worker-Main-1/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'cyborgmod:adrenaline_boost_module#inventory' referenced from: cyborgmod:adrenaline_boost_module#inventory: java.io.FileNotFoundException: cyborgmod:models/item/adrenaline_boost_module.json
+[0911月2024 15:04:49.851] [Worker-Main-1/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'cyborgmod:enhanced_regeneration_module#inventory' referenced from: cyborgmod:enhanced_regeneration_module#inventory: java.io.FileNotFoundException: cyborgmod:models/item/enhanced_regeneration_module.json
+[0911月2024 15:04:49.852] [Worker-Main-1/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'cyborgmod:poison_resistance_module#inventory' referenced from: cyborgmod:poison_resistance_module#inventory: java.io.FileNotFoundException: cyborgmod:models/item/poison_resistance_module.json
+[0911月2024 15:04:49.852] [Worker-Main-1/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'cyborgmod:oxygen_circulation_module#inventory' referenced from: cyborgmod:oxygen_circulation_module#inventory: java.io.FileNotFoundException: cyborgmod:models/item/oxygen_circulation_module.json
+[0911月2024 15:04:49.853] [Worker-Main-1/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'cyborgmod:cold_heat_resistance_module#inventory' referenced from: cyborgmod:cold_heat_resistance_module#inventory: java.io.FileNotFoundException: cyborgmod:models/item/cold_heat_resistance_module.json
+[0911月2024 15:04:49.853] [Worker-Main-1/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'cyborgmod:immune_system_module#inventory' referenced from: cyborgmod:immune_system_module#inventory: java.io.FileNotFoundException: cyborgmod:models/item/immune_system_module.json
+[0911月2024 15:04:49.853] [Worker-Main-1/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'cyborgmod:regeneration_module#inventory' referenced from: cyborgmod:regeneration_module#inventory: java.io.FileNotFoundException: cyborgmod:models/item/regeneration_module.json
+[0911月2024 15:04:49.853] [Worker-Main-1/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'cyborgmod:chameleon_module#inventory' referenced from: cyborgmod:chameleon_module#inventory: java.io.FileNotFoundException: cyborgmod:models/item/chameleon_module.json
+[0911月2024 15:04:49.853] [Worker-Main-1/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'cyborgmod:poison_liquid_module#inventory' referenced from: cyborgmod:poison_liquid_module#inventory: java.io.FileNotFoundException: cyborgmod:models/item/poison_liquid_module.json
+[0911月2024 15:04:49.853] [Worker-Main-1/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'cyborgmod:overclock_system_control_module#inventory' referenced from: cyborgmod:overclock_system_control_module#inventory: java.io.FileNotFoundException: cyborgmod:models/item/overclock_system_control_module.json
+[0911月2024 15:04:49.853] [Worker-Main-1/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'cyborgmod:overclock_module#inventory' referenced from: cyborgmod:overclock_module#inventory: java.io.FileNotFoundException: cyborgmod:models/item/overclock_module.json
+[0911月2024 15:04:49.853] [Worker-Main-1/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'cyborgmod:double_jump_module#inventory' referenced from: cyborgmod:double_jump_module#inventory: java.io.FileNotFoundException: cyborgmod:models/item/double_jump_module.json
+[0911月2024 15:04:49.853] [Worker-Main-1/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'cyborgmod:wall_jump_module#inventory' referenced from: cyborgmod:wall_jump_module#inventory: java.io.FileNotFoundException: cyborgmod:models/item/wall_jump_module.json
+[0911月2024 15:04:49.853] [Worker-Main-1/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'cyborgmod:wall_run_module#inventory' referenced from: cyborgmod:wall_run_module#inventory: java.io.FileNotFoundException: cyborgmod:models/item/wall_run_module.json
+[0911月2024 15:04:49.854] [Worker-Main-1/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'cyborgmod:hyper_drill_module#inventory' referenced from: cyborgmod:hyper_drill_module#inventory: java.io.FileNotFoundException: cyborgmod:models/item/hyper_drill_module.json
+[0911月2024 15:04:49.854] [Worker-Main-1/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'cyborgmod:omni_punch_module#inventory' referenced from: cyborgmod:omni_punch_module#inventory: java.io.FileNotFoundException: cyborgmod:models/item/omni_punch_module.json
+[0911月2024 15:04:49.854] [Worker-Main-1/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'cyborgmod:stealth_assassin_module#inventory' referenced from: cyborgmod:stealth_assassin_module#inventory: java.io.FileNotFoundException: cyborgmod:models/item/stealth_assassin_module.json
+[0911月2024 15:04:49.854] [Worker-Main-1/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'cyborgmod:combat_master_module#inventory' referenced from: cyborgmod:combat_master_module#inventory: java.io.FileNotFoundException: cyborgmod:models/item/combat_master_module.json
+[0911月2024 15:04:49.854] [Worker-Main-1/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'cyborgmod:regenerators_ex_module#inventory' referenced from: cyborgmod:regenerators_ex_module#inventory: java.io.FileNotFoundException: cyborgmod:models/item/regenerators_ex_module.json
+[0911月2024 15:04:49.854] [Worker-Main-1/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'cyborgmod:energy_sink_module#inventory' referenced from: cyborgmod:energy_sink_module#inventory: java.io.FileNotFoundException: cyborgmod:models/item/energy_sink_module.json
+[0911月2024 15:04:49.854] [Worker-Main-1/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'cyborgmod:field_controller_module#inventory' referenced from: cyborgmod:field_controller_module#inventory: java.io.FileNotFoundException: cyborgmod:models/item/field_controller_module.json
+[0911月2024 15:04:49.854] [Worker-Main-1/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'cyborgmod:ultra_vision_module#inventory' referenced from: cyborgmod:ultra_vision_module#inventory: java.io.FileNotFoundException: cyborgmod:models/item/ultra_vision_module.json
+[0911月2024 15:04:49.854] [Worker-Main-1/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'cyborgmod:basic_cooldown_trigger#inventory' referenced from: cyborgmod:basic_cooldown_trigger#inventory: java.io.FileNotFoundException: cyborgmod:models/item/basic_cooldown_trigger.json
+[0911月2024 15:04:49.854] [Worker-Main-1/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'cyborgmod:deepened_cooldown_trigger#inventory' referenced from: cyborgmod:deepened_cooldown_trigger#inventory: java.io.FileNotFoundException: cyborgmod:models/item/deepened_cooldown_trigger.json
+[0911月2024 15:04:49.854] [Worker-Main-1/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'cyborgmod:subtle_cooldown_trigger#inventory' referenced from: cyborgmod:subtle_cooldown_trigger#inventory: java.io.FileNotFoundException: cyborgmod:models/item/subtle_cooldown_trigger.json
+[0911月2024 15:04:49.854] [Worker-Main-1/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'cyborgmod:zenith_cooldown_trigger#inventory' referenced from: cyborgmod:zenith_cooldown_trigger#inventory: java.io.FileNotFoundException: cyborgmod:models/item/zenith_cooldown_trigger.json
+[0911月2024 15:04:49.854] [Worker-Main-1/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'cyborgmod:self_repairing_coil#inventory' referenced from: cyborgmod:self_repairing_coil#inventory: java.io.FileNotFoundException: cyborgmod:models/item/self_repairing_coil.json
+[0911月2024 15:04:49.855] [Worker-Main-1/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'cyborgmod:signal_amp#inventory' referenced from: cyborgmod:signal_amp#inventory: java.io.FileNotFoundException: cyborgmod:models/item/signal_amp.json
+[0911月2024 15:04:49.855] [Worker-Main-1/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'cyborgmod:adaptive_nanomaterial#inventory' referenced from: cyborgmod:adaptive_nanomaterial#inventory: java.io.FileNotFoundException: cyborgmod:models/item/adaptive_nanomaterial.json
+[0911月2024 15:04:49.855] [Worker-Main-1/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'cyborgmod:stabilizer_chip#inventory' referenced from: cyborgmod:stabilizer_chip#inventory: java.io.FileNotFoundException: cyborgmod:models/item/stabilizer_chip.json
+[0911月2024 15:04:49.855] [Worker-Main-1/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'cyborgmod:data_processor#inventory' referenced from: cyborgmod:data_processor#inventory: java.io.FileNotFoundException: cyborgmod:models/item/data_processor.json
+[0911月2024 15:04:49.855] [Worker-Main-1/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'cyborgmod:nanorelay#inventory' referenced from: cyborgmod:nanorelay#inventory: java.io.FileNotFoundException: cyborgmod:models/item/nanorelay.json
+[0911月2024 15:04:49.855] [Worker-Main-1/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'cyborgmod:antique_module#inventory' referenced from: cyborgmod:antique_module#inventory: java.io.FileNotFoundException: cyborgmod:models/item/antique_module.json
+[0911月2024 15:04:51.478] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
+[0911月2024 15:04:51.478] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[0911月2024 15:04:51.511] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on ヘッドホン (3- Astro MixAmp Pro Game)
+[0911月2024 15:04:51.513] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[0911月2024 15:04:51.618] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
+[0911月2024 15:04:51.628] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+[0911月2024 15:04:51.629] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[0911月2024 15:04:51.630] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[0911月2024 15:04:51.631] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[0911月2024 15:04:51.634] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[0911月2024 15:04:51.635] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[0911月2024 15:04:51.636] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[0911月2024 15:04:51.636] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[0911月2024 15:04:51.908] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[0911月2024 15:04:51.953] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[0911月2024 15:04:51.955] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[0911月2024 15:04:51.955] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[0911月2024 15:04:52.204] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: Invalid session id
+[0911月2024 15:06:26.998] [Render thread/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: Injecting existing registry data into this CLIENT instance
+[0911月2024 15:06:28.422] [Worker-Main-10/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:minecraft:chests/abandoned_mineshaft
+com.google.gson.JsonSyntaxException: Unknown type 'item.cyborgmod.antique_module'
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:99) ~[forge-1.20.1-47.1.47_mapped_official_1.20.1.jar%23191!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%23130!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%23130!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%23130!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%23130!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%23130!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%23130!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%23130!/:?]
+	at net.minecraft.util.GsonHelper.convertToObject(GsonHelper.java:463) ~[forge-1.20.1-47.1.47_mapped_official_1.20.1.jar%23191!/:?]
+	at net.minecraft.util.GsonHelper.getAsObject(GsonHelper.java:471) ~[forge-1.20.1-47.1.47_mapped_official_1.20.1.jar%23191!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:192) ~[forge-1.20.1-47.1.47_mapped_official_1.20.1.jar%23191!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:189) ~[forge-1.20.1-47.1.47_mapped_official_1.20.1.jar%23191!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%23130!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%23130!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%23130!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%23130!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%23130!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%23130!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%23130!/:?]
+	at net.minecraft.util.GsonHelper.convertToObject(GsonHelper.java:463) ~[forge-1.20.1-47.1.47_mapped_official_1.20.1.jar%23191!/:?]
+	at net.minecraft.util.GsonHelper.getAsObject(GsonHelper.java:481) ~[forge-1.20.1-47.1.47_mapped_official_1.20.1.jar%23191!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:294) ~[forge-1.20.1-47.1.47_mapped_official_1.20.1.jar%23191!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:291) ~[forge-1.20.1-47.1.47_mapped_official_1.20.1.jar%23191!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%23130!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%23130!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%23130!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar%23130!/:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:871) ~[forge-1.20.1-47.1.47_mapped_official_1.20.1.jar%23190%23197!/:?]
+	at net.minecraftforge.common.ForgeHooks.lambda$getLootTableDeserializer$3(ForgeHooks.java:848) ~[forge-1.20.1-47.1.47_mapped_official_1.20.1.jar%23190%23197!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataType.deserialize(LootDataType.java:45) ~[forge-1.20.1-47.1.47_mapped_official_1.20.1.jar%23191!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.lambda$scheduleElementParse$4(LootDataManager.java:56) ~[forge-1.20.1-47.1.47_mapped_official_1.20.1.jar%23191!/:?]
+	at java.util.HashMap.forEach(HashMap.java:1421) ~[?:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.lambda$scheduleElementParse$5(LootDataManager.java:55) ~[forge-1.20.1-47.1.47_mapped_official_1.20.1.jar%23191!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[0911月2024 15:06:28.647] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
+[0911月2024 15:06:28.741] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1271 advancements
+[0911月2024 15:06:29.170] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.20.1
+[0911月2024 15:06:29.171] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[0911月2024 15:06:29.517] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[0911月2024 15:06:31.539] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: スポーン地点を準備中：0%
+[0911月2024 15:06:31.539] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: スポーン地点を準備中：0%
+[0911月2024 15:06:31.539] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: スポーン地点を準備中：0%
+[0911月2024 15:06:31.539] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: スポーン地点を準備中：0%
+[0911月2024 15:06:31.539] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: スポーン地点を準備中：0%
+[0911月2024 15:06:32.369] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: スポーン地点を準備中：12%
+[0911月2024 15:06:32.445] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 2924 ms
+[0911月2024 15:06:32.447] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[0911月2024 15:06:32.637] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 12, from 10
+[0911月2024 15:06:32.640] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
+[0911月2024 15:06:32.724] [Render thread/WARN] [io.netty.util.internal.SystemPropertyUtil/]: Unable to parse the boolean system property 'java.net.preferIPv6Addresses':system - using the default value: false
+[0911月2024 15:06:33.244] [Netty Local Client IO #0/INFO] [net.minecraftforge.network.NetworkHooks/]: Connected to a modded server.
+[0911月2024 15:06:33.297] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:2a95ccbe] logged in with entity id 215 at (64.95944374361159, -60.0, -12.98875522223287)
+[0911月2024 15:06:33.353] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Devがゲームに参加しました
+[0911月2024 15:06:34.063] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 53 advancements
+[0911月2024 15:06:34.726] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[0911月2024 15:06:34.748] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新規ワールド]'/minecraft:overworld
+[0911月2024 15:06:35.540] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新規ワールド]'/minecraft:the_nether
+[0911月2024 15:06:35.542] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新規ワールド]'/minecraft:the_end
+[0911月2024 15:07:35.853] [Server thread/ERROR] [net.minecraft.world.level.chunk.LevelChunk/]: A BlockEntity type com.Syaru.CyborgMod.block.entity.ConsoleBlockEntity has thrown an exception trying to write state. It will not persist, Report this to the mod author
+java.lang.RuntimeException: class com.Syaru.CyborgMod.block.entity.ConsoleBlockEntity is missing a mapping! This is a bug!
+	at net.minecraft.world.level.block.entity.BlockEntity.saveId(BlockEntity.java:84) ~[forge-1.20.1-47.1.47_mapped_official_1.20.1.jar%23191!/:?]
+	at net.minecraft.world.level.block.entity.BlockEntity.saveMetadata(BlockEntity.java:99) ~[forge-1.20.1-47.1.47_mapped_official_1.20.1.jar%23191!/:?]
+	at net.minecraft.world.level.block.entity.BlockEntity.saveWithFullMetadata(BlockEntity.java:65) ~[forge-1.20.1-47.1.47_mapped_official_1.20.1.jar%23191!/:?]
+	at net.minecraft.world.level.chunk.LevelChunk.getBlockEntityNbtForSaving(LevelChunk.java:376) ~[forge-1.20.1-47.1.47_mapped_official_1.20.1.jar%23191!/:?]
+	at net.minecraft.world.level.chunk.storage.ChunkSerializer.write(ChunkSerializer.java:324) ~[forge-1.20.1-47.1.47_mapped_official_1.20.1.jar%23191!/:?]
+	at net.minecraft.server.level.ChunkMap.save(ChunkMap.java:829) ~[forge-1.20.1-47.1.47_mapped_official_1.20.1.jar%23191!/:?]
+	at net.minecraft.server.level.ChunkMap.saveChunkIfNeeded(ChunkMap.java:796) ~[forge-1.20.1-47.1.47_mapped_official_1.20.1.jar%23191!/:?]
+	at net.minecraft.server.level.ChunkMap.processUnloads(ChunkMap.java:490) ~[forge-1.20.1-47.1.47_mapped_official_1.20.1.jar%23191!/:?]
+	at net.minecraft.server.level.ChunkMap.tick(ChunkMap.java:454) ~[forge-1.20.1-47.1.47_mapped_official_1.20.1.jar%23191!/:?]
+	at net.minecraft.server.level.ServerChunkCache.tick(ServerChunkCache.java:316) ~[forge-1.20.1-47.1.47_mapped_official_1.20.1.jar%23191!/:?]
+	at net.minecraft.server.level.ServerLevel.tick(ServerLevel.java:305) ~[forge-1.20.1-47.1.47_mapped_official_1.20.1.jar%23191!/:?]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:893) ~[forge-1.20.1-47.1.47_mapped_official_1.20.1.jar%23191!/:?]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:814) ~[forge-1.20.1-47.1.47_mapped_official_1.20.1.jar%23191!/:?]
+	at net.minecraft.client.server.IntegratedServer.tickServer(IntegratedServer.java:89) ~[forge-1.20.1-47.1.47_mapped_official_1.20.1.jar%23191!/:?]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:661) ~[forge-1.20.1-47.1.47_mapped_official_1.20.1.jar%23191!/:?]
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:251) ~[forge-1.20.1-47.1.47_mapped_official_1.20.1.jar%23191!/:?]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+[0911月2024 15:07:45.901] [Server thread/ERROR] [net.minecraft.world.level.chunk.LevelChunk/]: A BlockEntity type com.Syaru.CyborgMod.block.entity.ConsoleBlockEntity has thrown an exception trying to write state. It will not persist, Report this to the mod author
+java.lang.RuntimeException: class com.Syaru.CyborgMod.block.entity.ConsoleBlockEntity is missing a mapping! This is a bug!
+	at net.minecraft.world.level.block.entity.BlockEntity.saveId(BlockEntity.java:84) ~[forge-1.20.1-47.1.47_mapped_official_1.20.1.jar%23191!/:?]
+	at net.minecraft.world.level.block.entity.BlockEntity.saveMetadata(BlockEntity.java:99) ~[forge-1.20.1-47.1.47_mapped_official_1.20.1.jar%23191!/:?]
+	at net.minecraft.world.level.block.entity.BlockEntity.saveWithFullMetadata(BlockEntity.java:65) ~[forge-1.20.1-47.1.47_mapped_official_1.20.1.jar%23191!/:?]
+	at net.minecraft.world.level.chunk.LevelChunk.getBlockEntityNbtForSaving(LevelChunk.java:376) ~[forge-1.20.1-47.1.47_mapped_official_1.20.1.jar%23191!/:?]
+	at net.minecraft.world.level.chunk.storage.ChunkSerializer.write(ChunkSerializer.java:324) ~[forge-1.20.1-47.1.47_mapped_official_1.20.1.jar%23191!/:?]
+	at net.minecraft.server.level.ChunkMap.save(ChunkMap.java:829) ~[forge-1.20.1-47.1.47_mapped_official_1.20.1.jar%23191!/:?]
+	at net.minecraft.server.level.ChunkMap.saveChunkIfNeeded(ChunkMap.java:796) ~[forge-1.20.1-47.1.47_mapped_official_1.20.1.jar%23191!/:?]
+	at net.minecraft.server.level.ChunkMap.processUnloads(ChunkMap.java:490) ~[forge-1.20.1-47.1.47_mapped_official_1.20.1.jar%23191!/:?]
+	at net.minecraft.server.level.ChunkMap.tick(ChunkMap.java:454) ~[forge-1.20.1-47.1.47_mapped_official_1.20.1.jar%23191!/:?]
+	at net.minecraft.server.level.ServerChunkCache.tick(ServerChunkCache.java:316) ~[forge-1.20.1-47.1.47_mapped_official_1.20.1.jar%23191!/:?]
+	at net.minecraft.server.level.ServerLevel.tick(ServerLevel.java:305) ~[forge-1.20.1-47.1.47_mapped_official_1.20.1.jar%23191!/:?]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:893) ~[forge-1.20.1-47.1.47_mapped_official_1.20.1.jar%23191!/:?]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:814) ~[forge-1.20.1-47.1.47_mapped_official_1.20.1.jar%23191!/:?]
+	at net.minecraft.client.server.IntegratedServer.tickServer(IntegratedServer.java:89) ~[forge-1.20.1-47.1.47_mapped_official_1.20.1.jar%23191!/:?]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:661) ~[forge-1.20.1-47.1.47_mapped_official_1.20.1.jar%23191!/:?]
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:251) ~[forge-1.20.1-47.1.47_mapped_official_1.20.1.jar%23191!/:?]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+[0911月2024 15:07:52.851] [Server thread/ERROR] [net.minecraft.world.level.chunk.LevelChunk/]: A BlockEntity type com.Syaru.CyborgMod.block.entity.ConsoleBlockEntity has thrown an exception trying to write state. It will not persist, Report this to the mod author
+java.lang.RuntimeException: class com.Syaru.CyborgMod.block.entity.ConsoleBlockEntity is missing a mapping! This is a bug!
+	at net.minecraft.world.level.block.entity.BlockEntity.saveId(BlockEntity.java:84) ~[forge-1.20.1-47.1.47_mapped_official_1.20.1.jar%23191!/:?]
+	at net.minecraft.world.level.block.entity.BlockEntity.saveMetadata(BlockEntity.java:99) ~[forge-1.20.1-47.1.47_mapped_official_1.20.1.jar%23191!/:?]
+	at net.minecraft.world.level.block.entity.BlockEntity.saveWithFullMetadata(BlockEntity.java:65) ~[forge-1.20.1-47.1.47_mapped_official_1.20.1.jar%23191!/:?]
+	at net.minecraft.world.level.chunk.LevelChunk.getBlockEntityNbtForSaving(LevelChunk.java:376) ~[forge-1.20.1-47.1.47_mapped_official_1.20.1.jar%23191!/:?]
+	at net.minecraft.world.level.chunk.storage.ChunkSerializer.write(ChunkSerializer.java:324) ~[forge-1.20.1-47.1.47_mapped_official_1.20.1.jar%23191!/:?]
+	at net.minecraft.server.level.ChunkMap.save(ChunkMap.java:829) ~[forge-1.20.1-47.1.47_mapped_official_1.20.1.jar%23191!/:?]
+	at net.minecraft.server.level.ChunkMap.saveChunkIfNeeded(ChunkMap.java:796) ~[forge-1.20.1-47.1.47_mapped_official_1.20.1.jar%23191!/:?]
+	at net.minecraft.server.level.ChunkMap.processUnloads(ChunkMap.java:490) ~[forge-1.20.1-47.1.47_mapped_official_1.20.1.jar%23191!/:?]
+	at net.minecraft.server.level.ChunkMap.tick(ChunkMap.java:454) ~[forge-1.20.1-47.1.47_mapped_official_1.20.1.jar%23191!/:?]
+	at net.minecraft.server.level.ServerChunkCache.tick(ServerChunkCache.java:316) ~[forge-1.20.1-47.1.47_mapped_official_1.20.1.jar%23191!/:?]
+	at net.minecraft.server.level.ServerLevel.tick(ServerLevel.java:305) ~[forge-1.20.1-47.1.47_mapped_official_1.20.1.jar%23191!/:?]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:893) ~[forge-1.20.1-47.1.47_mapped_official_1.20.1.jar%23191!/:?]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:814) ~[forge-1.20.1-47.1.47_mapped_official_1.20.1.jar%23191!/:?]
+	at net.minecraft.client.server.IntegratedServer.tickServer(IntegratedServer.java:89) ~[forge-1.20.1-47.1.47_mapped_official_1.20.1.jar%23191!/:?]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:661) ~[forge-1.20.1-47.1.47_mapped_official_1.20.1.jar%23191!/:?]
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:251) ~[forge-1.20.1-47.1.47_mapped_official_1.20.1.jar%23191!/:?]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+[0911月2024 15:08:02.852] [Server thread/ERROR] [net.minecraft.world.level.chunk.LevelChunk/]: A BlockEntity type com.Syaru.CyborgMod.block.entity.ConsoleBlockEntity has thrown an exception trying to write state. It will not persist, Report this to the mod author
+java.lang.RuntimeException: class com.Syaru.CyborgMod.block.entity.ConsoleBlockEntity is missing a mapping! This is a bug!
+	at net.minecraft.world.level.block.entity.BlockEntity.saveId(BlockEntity.java:84) ~[forge-1.20.1-47.1.47_mapped_official_1.20.1.jar%23191!/:?]
+	at net.minecraft.world.level.block.entity.BlockEntity.saveMetadata(BlockEntity.java:99) ~[forge-1.20.1-47.1.47_mapped_official_1.20.1.jar%23191!/:?]
+	at net.minecraft.world.level.block.entity.BlockEntity.saveWithFullMetadata(BlockEntity.java:65) ~[forge-1.20.1-47.1.47_mapped_official_1.20.1.jar%23191!/:?]
+	at net.minecraft.world.level.chunk.LevelChunk.getBlockEntityNbtForSaving(LevelChunk.java:376) ~[forge-1.20.1-47.1.47_mapped_official_1.20.1.jar%23191!/:?]
+	at net.minecraft.world.level.chunk.storage.ChunkSerializer.write(ChunkSerializer.java:324) ~[forge-1.20.1-47.1.47_mapped_official_1.20.1.jar%23191!/:?]
+	at net.minecraft.server.level.ChunkMap.save(ChunkMap.java:829) ~[forge-1.20.1-47.1.47_mapped_official_1.20.1.jar%23191!/:?]
+	at net.minecraft.server.level.ChunkMap.saveChunkIfNeeded(ChunkMap.java:796) ~[forge-1.20.1-47.1.47_mapped_official_1.20.1.jar%23191!/:?]
+	at net.minecraft.server.level.ChunkMap.processUnloads(ChunkMap.java:490) ~[forge-1.20.1-47.1.47_mapped_official_1.20.1.jar%23191!/:?]
+	at net.minecraft.server.level.ChunkMap.tick(ChunkMap.java:454) ~[forge-1.20.1-47.1.47_mapped_official_1.20.1.jar%23191!/:?]
+	at net.minecraft.server.level.ServerChunkCache.tick(ServerChunkCache.java:316) ~[forge-1.20.1-47.1.47_mapped_official_1.20.1.jar%23191!/:?]
+	at net.minecraft.server.level.ServerLevel.tick(ServerLevel.java:305) ~[forge-1.20.1-47.1.47_mapped_official_1.20.1.jar%23191!/:?]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:893) ~[forge-1.20.1-47.1.47_mapped_official_1.20.1.jar%23191!/:?]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:814) ~[forge-1.20.1-47.1.47_mapped_official_1.20.1.jar%23191!/:?]
+	at net.minecraft.client.server.IntegratedServer.tickServer(IntegratedServer.java:89) ~[forge-1.20.1-47.1.47_mapped_official_1.20.1.jar%23191!/:?]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:661) ~[forge-1.20.1-47.1.47_mapped_official_1.20.1.jar%23191!/:?]
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:251) ~[forge-1.20.1-47.1.47_mapped_official_1.20.1.jar%23191!/:?]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+[0911月2024 15:08:12.901] [Server thread/ERROR] [net.minecraft.world.level.chunk.LevelChunk/]: A BlockEntity type com.Syaru.CyborgMod.block.entity.ConsoleBlockEntity has thrown an exception trying to write state. It will not persist, Report this to the mod author
+java.lang.RuntimeException: class com.Syaru.CyborgMod.block.entity.ConsoleBlockEntity is missing a mapping! This is a bug!
+	at net.minecraft.world.level.block.entity.BlockEntity.saveId(BlockEntity.java:84) ~[forge-1.20.1-47.1.47_mapped_official_1.20.1.jar%23191!/:?]
+	at net.minecraft.world.level.block.entity.BlockEntity.saveMetadata(BlockEntity.java:99) ~[forge-1.20.1-47.1.47_mapped_official_1.20.1.jar%23191!/:?]
+	at net.minecraft.world.level.block.entity.BlockEntity.saveWithFullMetadata(BlockEntity.java:65) ~[forge-1.20.1-47.1.47_mapped_official_1.20.1.jar%23191!/:?]
+	at net.minecraft.world.level.chunk.LevelChunk.getBlockEntityNbtForSaving(LevelChunk.java:376) ~[forge-1.20.1-47.1.47_mapped_official_1.20.1.jar%23191!/:?]
+	at net.minecraft.world.level.chunk.storage.ChunkSerializer.write(ChunkSerializer.java:324) ~[forge-1.20.1-47.1.47_mapped_official_1.20.1.jar%23191!/:?]
+	at net.minecraft.server.level.ChunkMap.save(ChunkMap.java:829) ~[forge-1.20.1-47.1.47_mapped_official_1.20.1.jar%23191!/:?]
+	at net.minecraft.server.level.ChunkMap.saveChunkIfNeeded(ChunkMap.java:796) ~[forge-1.20.1-47.1.47_mapped_official_1.20.1.jar%23191!/:?]
+	at net.minecraft.server.level.ChunkMap.processUnloads(ChunkMap.java:490) ~[forge-1.20.1-47.1.47_mapped_official_1.20.1.jar%23191!/:?]
+	at net.minecraft.server.level.ChunkMap.tick(ChunkMap.java:454) ~[forge-1.20.1-47.1.47_mapped_official_1.20.1.jar%23191!/:?]
+	at net.minecraft.server.level.ServerChunkCache.tick(ServerChunkCache.java:316) ~[forge-1.20.1-47.1.47_mapped_official_1.20.1.jar%23191!/:?]
+	at net.minecraft.server.level.ServerLevel.tick(ServerLevel.java:305) ~[forge-1.20.1-47.1.47_mapped_official_1.20.1.jar%23191!/:?]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:893) ~[forge-1.20.1-47.1.47_mapped_official_1.20.1.jar%23191!/:?]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:814) ~[forge-1.20.1-47.1.47_mapped_official_1.20.1.jar%23191!/:?]
+	at net.minecraft.client.server.IntegratedServer.tickServer(IntegratedServer.java:89) ~[forge-1.20.1-47.1.47_mapped_official_1.20.1.jar%23191!/:?]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:661) ~[forge-1.20.1-47.1.47_mapped_official_1.20.1.jar%23191!/:?]
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:251) ~[forge-1.20.1-47.1.47_mapped_official_1.20.1.jar%23191!/:?]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+[0911月2024 15:08:22.444] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] スクリーンショットを2024-11-09_15.08.22.pngとして保存しました
+[0911月2024 15:08:22.951] [Server thread/ERROR] [net.minecraft.world.level.chunk.LevelChunk/]: A BlockEntity type com.Syaru.CyborgMod.block.entity.ConsoleBlockEntity has thrown an exception trying to write state. It will not persist, Report this to the mod author
+java.lang.RuntimeException: class com.Syaru.CyborgMod.block.entity.ConsoleBlockEntity is missing a mapping! This is a bug!
+	at net.minecraft.world.level.block.entity.BlockEntity.saveId(BlockEntity.java:84) ~[forge-1.20.1-47.1.47_mapped_official_1.20.1.jar%23191!/:?]
+	at net.minecraft.world.level.block.entity.BlockEntity.saveMetadata(BlockEntity.java:99) ~[forge-1.20.1-47.1.47_mapped_official_1.20.1.jar%23191!/:?]
+	at net.minecraft.world.level.block.entity.BlockEntity.saveWithFullMetadata(BlockEntity.java:65) ~[forge-1.20.1-47.1.47_mapped_official_1.20.1.jar%23191!/:?]
+	at net.minecraft.world.level.chunk.LevelChunk.getBlockEntityNbtForSaving(LevelChunk.java:376) ~[forge-1.20.1-47.1.47_mapped_official_1.20.1.jar%23191!/:?]
+	at net.minecraft.world.level.chunk.storage.ChunkSerializer.write(ChunkSerializer.java:324) ~[forge-1.20.1-47.1.47_mapped_official_1.20.1.jar%23191!/:?]
+	at net.minecraft.server.level.ChunkMap.save(ChunkMap.java:829) ~[forge-1.20.1-47.1.47_mapped_official_1.20.1.jar%23191!/:?]
+	at net.minecraft.server.level.ChunkMap.saveChunkIfNeeded(ChunkMap.java:796) ~[forge-1.20.1-47.1.47_mapped_official_1.20.1.jar%23191!/:?]
+	at net.minecraft.server.level.ChunkMap.processUnloads(ChunkMap.java:490) ~[forge-1.20.1-47.1.47_mapped_official_1.20.1.jar%23191!/:?]
+	at net.minecraft.server.level.ChunkMap.tick(ChunkMap.java:454) ~[forge-1.20.1-47.1.47_mapped_official_1.20.1.jar%23191!/:?]
+	at net.minecraft.server.level.ServerChunkCache.tick(ServerChunkCache.java:316) ~[forge-1.20.1-47.1.47_mapped_official_1.20.1.jar%23191!/:?]
+	at net.minecraft.server.level.ServerLevel.tick(ServerLevel.java:305) ~[forge-1.20.1-47.1.47_mapped_official_1.20.1.jar%23191!/:?]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:893) ~[forge-1.20.1-47.1.47_mapped_official_1.20.1.jar%23191!/:?]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:814) ~[forge-1.20.1-47.1.47_mapped_official_1.20.1.jar%23191!/:?]
+	at net.minecraft.client.server.IntegratedServer.tickServer(IntegratedServer.java:89) ~[forge-1.20.1-47.1.47_mapped_official_1.20.1.jar%23191!/:?]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:661) ~[forge-1.20.1-47.1.47_mapped_official_1.20.1.jar%23191!/:?]
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:251) ~[forge-1.20.1-47.1.47_mapped_official_1.20.1.jar%23191!/:?]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+[0911月2024 15:08:25.897] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[0911月2024 15:08:25.906] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新規ワールド]'/minecraft:overworld
+[0911月2024 15:08:25.921] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新規ワールド]'/minecraft:the_nether
+[0911月2024 15:08:25.923] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新規ワールド]'/minecraft:the_end
+[0911月2024 15:08:50.747] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[0911月2024 15:08:50.755] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新規ワールド]'/minecraft:overworld
+[0911月2024 15:08:50.763] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新規ワールド]'/minecraft:the_nether
+[0911月2024 15:08:50.764] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新規ワールド]'/minecraft:the_end
+[0911月2024 15:09:10.484] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
+[0911月2024 15:09:10.505] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dev lost connection: 切断されました
+[0911月2024 15:09:10.505] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Devがゲームを退出しました
+[0911月2024 15:09:10.513] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Stopping singleplayer server as player logged out
+[0911月2024 15:09:10.553] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[0911月2024 15:09:10.553] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[0911月2024 15:09:10.553] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[0911月2024 15:09:10.790] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新規ワールド]'/minecraft:overworld
+[0911月2024 15:09:10.938] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新規ワールド]'/minecraft:the_nether
+[0911月2024 15:09:10.939] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新規ワールド]'/minecraft:the_end
+[0911月2024 15:09:10.955] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (新規ワールド): All chunks are saved
+[0911月2024 15:09:10.955] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[0911月2024 15:09:10.955] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[0911月2024 15:09:10.955] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
